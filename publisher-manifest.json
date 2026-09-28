@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "e65eac77807b5c7bf7cc34f7",
+  "owner": "fmkpps",
+  "repo": "page-fb2dc13b93aa9400163be288",
+  "title": "魔戒",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "fb2dc13b93aa9400163be288",
+      "a": "魔戒",
+      "b": "",
+      "entity": "魔戒",
+      "brand": "魔戒",
+      "separator": "",
+      "path": "index.html",
+      "hash": "f4d2395196e2c1f484b58769f6603c173db90793ff75be1801b52cd9898619b2",
+      "content": {
+        "keyword1": "魔戒",
+        "keyword2": "",
+        "primary_entity": "魔戒",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "魔戒机场提供安全稳定的网络加速服务，支持多设备在线，解锁流媒体。便捷客户端下载，立即体验无限畅享。",
+          "AI_DESCRIPTION": "魔戒机场提供安全稳定的网络加速服务，支持多设备在线，解锁流媒体。便捷客户端下载，立即体验无限畅享。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    <style>\n        :root {\n            --white: #faf8f5;\n            --coral: #ff6b6b;\n            --dark: #2c2c2c;\n        }\n        * { margin:0; padding:0; box-sizing:border-box; }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            line-height: 1.6;\n            color: var(--dark);\n            background: var(--white);\n        }\n        header {\n            background: white;\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 1rem 2rem;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--coral);\n        }\n        .hero {\n            background: var(--white);\n            padding: 6rem 2rem 4rem;\n            text-align: center;\n            position: relative;\n        }\n        .hero h1 {\n            font-size: 3.5rem;\n            margin-bottom: 1rem;\n            color: var(--dark);\n        }\n        .hero .tagline {\n            font-size: 1.5rem;\n            color: #666;\n            margin-bottom: 2rem;\n        }\n        .cta {\n            display: inline-block;\n            background: var(--coral);\n            color: white;\n            padding: 0.8rem 2rem;\n            border-radius: 50px;\n            text-decoration: none;\n            font-size: 1.1rem;\n            margin: 1rem;\n        }\n        .section {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 4rem 2rem;\n        }\n        .intro {\n            text-align: center;\n        }\n        .intro p {\n            max-width: 800px;\n            margin: 0 auto 2rem;\n            font-size: 1.1rem;\n        }\n        .features {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 2rem;\n        }\n        .feature-card {\n            background: #fff;\n            padding: 2rem;\n            border-radius: 12px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n        }\n        .plans {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));\n            gap: 2rem;\n        }\n        .plan {\n            border: 1px solid #eee;\n            border-radius: 12px;\n            padding: 2rem;\n            text-align: center;\n        }\n        .plan.featured {\n            border-color: var(--coral);\n            transform: scale(1.05);\n        }\n        .plan h3 {\n            font-size: 1.5rem;\n            margin-bottom: 1rem;\n        }\n        .price {\n            font-size: 2rem;\n            font-weight: bold;\n            color: var(--coral);\n            margin: 1rem 0;\n        }\n        details {\n            margin: 1rem 0;\n            border: 1px solid #eee;\n            border-radius: 8px;\n            padding: 1rem;\n        }\n        summary {\n            font-weight: bold;\n            cursor: pointer;\n            font-size: 1.1rem;\n        }\n        .faq-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 1.5rem;\n        }\n        .faq-item {\n            background: #fff;\n            padding: 1.5rem;\n            border-radius: 12px;\n        }\n        footer {\n            background: #f0e9e3;\n            padding: 3rem 2rem;\n            text-align: center;\n        }\n        @media (max-width: 768px) {\n            .hero h1 { font-size: 2.8rem; }\n            .section { padding: 3rem 1rem; }\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">魔戒</div>\n            <div>首页 | 套餐 | 下载 | FAQ</div>\n        </nav>\n    </header>\n    <main>\n        <section class=\"hero\">\n            <h1>魔戒</h1>\n            <p class=\"tagline\">魔戒机场 · 网络加速 · 客户端下载</p>\n            <a href=\"#\" class=\"cta\">立即下载客户端</a>\n            <a href=\"#\" class=\"cta\">了解更多</a>\n        </section>\n        <section class=\"section intro\">\n            <h2>品牌简介</h2>\n            <p>魔戒机场是一款专业网络加速与隐私保护服务，专注于提供稳定高速的节点连接。我们通过优化算法和全球节点池，为用户带来无障碍的网络体验，支持多种设备接入，助力您畅享全球内容。</p>\n        </section>\n        <section class=\"section\">\n            <h2>使用场景</h2>\n            <div class=\"features\">\n                <div class=\"feature-card\">\n                    <h3>高清流媒体</h3>\n                    <p>自动解锁Netflix、Disney+、YouTube等平台，畅享无广告高清视频。</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>在线游戏</h3>\n                    <p>IPLC专线优化降低延迟，享受流畅的多人游戏体验。</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>远程办公</h3>\n                    <p>加密隧道保护数据安全，高效连接全球团队。</p>\n                </div>\n            </div>\n        </section>\n        <section class=\"section\">\n            <h2>操作说明</h2>\n            <ol>\n                <li>访问官网下载魔戒机场客户端</li>\n                <li>安装并打开应用</li>\n                <li>注册账号，选择节点一键连接</li>\n                <li>享受高速稳定加速服务</li>\n            </ol>\n        </section>\n        <section class=\"section\">\n            <h2>选择套餐</h2>\n            <div class=\"plans\">\n                {{PLANS_HTML}}\n            </div>\n        </section>\n        <section class=\"section\">\n            <h2>常见问题</h2>\n            <div class=\"faq-grid\">\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>如何下载魔戒机场客户端？</summary>\n                        <p>请访问官网下载页面，点击对应平台按钮获取最新客户端，支持Windows、macOS、iOS、Android及路由器安装。</p>\n                    </details>\n                </div>\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>支持哪些设备和平台？</summary>\n                        <p>魔戒机场客户端支持Windows、macOS、iOS、Android等多平台接入，并提供路由器版本适配企业使用。</p>\n                    </details>\n                </div>\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>如何解锁流媒体平台？</summary>\n                        <p>选择对应地区的节点，即可自动解锁Netflix、Disney+、YouTube等热门流媒体，自动匹配最佳线路。</p>\n                    </details>\n                </div>\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>隐私保护机制是什么？</summary>\n                        <p>所有流量经过AES-256加密隧道，确保您的上网行为完全私密，符合GDPR及隐私保护标准。</p>\n                    </details>\n                </div>\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>如何升级或切换套餐？</summary>\n                        <p>登录个人中心即可在线升级，立即生效并支持随时切换基础版、旗舰版或团队版。</p>\n                    </details>\n                </div>\n                <div class=\"faq-item\">\n                    <details>\n                        <summary>售后支持如何？</summary>\n                        <p>提供7x24在线客服与工单支持，技术团队24小时在线协助，工单响应快速及时。</p>\n                    </details>\n                </div>\n            </div>\n        </section>\n        <section class=\"section\">\n            <h2>合作伙伴</h2>\n            <div>\n                {{CLIENTS_HTML}}\n            </div>\n        </section>\n    </main>\n    <footer>\n        <p>© 2024 魔戒机场 保留所有权利</p>\n        <p>友情链接：<a href=\"#\">官网</a> | <a href=\"#\">订阅</a> | <a href=\"#\">客户端下载</a></p>\n    </footer>\n\n",
+          "hash": "0a8adb7fd23f631941c63968f89a64f9aa11edc6f9bd0abfc711481784464f25",
+          "seo": {
+            "title": "魔戒机场 | 网络加速 客户端下载 官网",
+            "keywords": "魔戒机场,魔戒VPN,机场加速器,客户端下载,VPN加速,网络加速,机场订阅",
+            "description": "魔戒机场提供安全稳定的网络加速服务，支持多设备在线，解锁流媒体。便捷客户端下载，立即体验无限畅享。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "youzeng66.cn",
+    "host": "web.youzeng66.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "youzeng66.cn",
+      "url": "https://youzeng66.cn/",
+      "label": "STC",
+      "apex": "youzeng66.cn",
+      "kind": null,
+      "identity": "tqmdrxh/page-2c0a265cc2a0583747ae63a2"
+    },
+    {
+      "host": "999ew.cn",
+      "url": "https://999ew.cn/",
+      "label": "魔戒",
+      "apex": "999ew.cn",
+      "kind": null,
+      "identity": "vxspeg9bv/page-0b84603d0eb599eaf789f1cd"
+    },
+    {
+      "host": "bggdjp.cn",
+      "url": "https://bggdjp.cn/",
+      "label": "魔戒",
+      "apex": "bggdjp.cn",
+      "kind": null,
+      "identity": "pwk8xwvp/page-6c4e6880f26af3a8a6cfcca5"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "eb65a7a770b0cc621c025daf2ea2f8b3861538960094cbd5679a0be47a7be825",
+    "sitemap.xml": "db2818bd15d1eb9d4b20bdd7d97c473ec353a1d14060a34029ef4966d8ce665d",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "394f22fc38d42e202d0834d0f01c9dcb2055e3f84e0dd9eb1cb008f0a1502715",
+    "robots.txt": "a3d03d9a014797ad655874f78bb0c1e06dfdca06c2950cf0a13137300b71d1f8",
+    "5d99826ecb773b7e168f1d2f737f2c06.txt": "ddc7f883428b334a2c1d143846ea2b726dc7b9a380fac7f615202e82d52a5a14"
+  },
+  "revision": "6c5c18029754bbf56d0f0912fc694e99d31d97117d25fbc8b97eb4b632b01cf6"
+}
